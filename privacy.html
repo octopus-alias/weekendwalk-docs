@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="おでかけウォークのプライバシーポリシー。本人の個人利用に関する説明。">
+  <title>プライバシーポリシー | おでかけウォーク</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へ移動</a>
+  <header class="site-header">
+    <a class="brand" href="index.html">おでかけウォーク<span>週末のおでかけを、歩くきっかけに。</span></a>
+    <nav aria-label="文書メニュー"><a href="index.html">トップ</a> <a href="terms.html">利用規約</a> <a href="privacy.html" aria-current="page">プライバシーポリシー</a></nav>
+  </header>
+  <main id="main" tabindex="-1">
+    <article class="document">
+      <p class="eyebrow">アプリの利用について</p>
+      <h1>プライバシーポリシー</h1>
+      <p class="document-meta">版 0.3 · 更新日 <time datetime="2026-10-07">2026-10-07</time></p>
+      <p class="scope">作成者本人が自分の端末で使用する場合の説明です。</p>
+<h2>端末内に保存する情報</h2>
+<p>予定のタイトル、日付・時刻、スポット名・入力住所・入力座標・Place ID、並び順、手動の到着・開始・終了時刻、予想の算出条件と結果をアプリ専用領域に保存します。任意の身長・体重と目標歩数は歩幅・予想歩数・推定消費カロリーの計算に用い、端末内に保存します。</p>
+<p>共有・貼り付け・編集中の予定は一時ドラフトとしてアプリ専用キャッシュに保存します。ドラフトは24時間で失効し、操作時・次回起動時などに期限を確認して削除します。登録・取消時にも本文を削除します。Androidによってキャッシュが先に削除される場合もあります。復帰と重複登録防止の識別情報は専用ファイル・予定DBで扱います。</p>
+<p>初版にはアカウント登録、独自サーバーへの予定・プロフィールの自動送信、広告、独自の行動分析SDK、Health Connectによる歩数取得はありません。Androidの自動バックアップは無効です。外部サービスを利用するときの通信については、以下の説明が適用されます。</p>
+<h2>位置情報</h2>
+<p>おでかけ実行画面で本人が現在地取得を操作したときに、Androidの許可を得てGoogle Play開発者サービスの位置情報機能を使用します。おおよその位置の許可でも利用でき、拒否しても予定管理と手動の到着記録を利用できます。バックグラウンド位置権限は要求しません。</p>
+<p>現在地は次の目的地までの表示に用いる一時情報です。本アプリは位置履歴を予定DBに保存せず、画面を離れる・背景へ移る際に取得を停止して表示用の現在地を破棄します。端末内に履歴を保存しないことは、Google側で位置情報を処理しないという意味ではありません。Google Play開発者サービス側での情報の扱いにはGoogleの方針が適用されます。</p>
+<h2>Googleサービスと外部アプリへの情報</h2>
+<p>場所検索では検索語を、Place IDによる確認では当該IDをGoogle Placesへ送信します。地図表示にはGoogle Maps SDKを使用します。Googleから取得した地点情報は表示のために一時的に保持し、応答を予定DBへそのまま保存しません。選択したPlace IDは予定に保存します。</p>
+<p>Google由来座標の計算・結果保存用途は現時点で未確認のため、初版の該当区間は理由付き未算出です。この扱いを変更する前に実装と文書を更新します。</p>
+<p>Google Maps SDKなどのGoogleサービスは、通信に伴うIPアドレス、端末・SDKの情報、SDKの識別子、クラッシュ等の診断情報や利用状況などをGoogle側で処理する場合があります。本アプリ独自の広告・行動分析がないことと、Google側の情報処理は別です。詳しくはGoogleの方針とSDKの説明を確認してください。</p>
+<ul>
+<li><a href="https://policies.google.com/privacy">Googleプライバシーポリシー</a></li>
+<li><a href="https://developers.google.com/maps/documentation/android-sdk/play-data-disclosure">Maps SDK for Androidのデータ収集に関する説明</a></li>
+<li><a href="https://policies.google.com/terms">Google利用規約</a></li>
+<li><a href="https://www.google.com/help/terms_maps/">Google Maps/Google Earth追加利用規約</a></li>
+</ul>
+<p>徒歩ナビを開く操作では、目的地の名前・住所、採用した入力座標またはPlace IDをGoogle Mapsアプリ／対応ブラウザーへ渡します。プロフィールの身長・体重をこのURLや場所検索のリクエストへ自動で追加する処理はありません。</p>
+<p>ChatGPTを開く操作は外部サイトを開きます。本アプリはChatGPT APIへ予定やプロフィールを自動送信しません。外部サイト・アプリへ本人が入力・共有する情報は、その提供者の方針に従って扱われます。</p>
+<h2>文書の公開サイト</h2>
+<p>この文書はGitHub Pagesを利用して公開します。公開サイトの閲覧時には、GitHubがセキュリティのために閲覧者のIPアドレスを記録・保存します。GitHub側での情報の扱いは<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHubのプライバシーに関する声明</a>を確認してください。<a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages">GitHub Pagesの説明</a></p>
+<p>公開サイトには、独自のアクセス解析、広告、入力フォームを設置しません。</p>
+<h2>削除と管理</h2>
+<p>予定はアプリ内で削除できます。進行中の予定は終了してから削除します。プロフィールは身長・体重を空欄にして保存できます。アンインストールすると端末内のアプリ専用データが削除されます。外部サービスへ渡した情報の削除・管理は、その提供者の方針を確認してください。</p>
+<p>アプリと端末内データは作成者本人が管理します。個人利用の現状に合わせ、事業者名や利用者向け問い合わせ窓口の記入欄は設けません。他の利用者への配布や情報の扱いの変更に際しては、管理者の表示、連絡方法、この文書の内容を改めて確認し、版と更新日を更新します。</p>
+    </article>
+  </main>
+  <footer class="site-footer"><p>おでかけウォーク · 個人利用向けAndroidアプリ</p></footer>
+</body>
+</html>
